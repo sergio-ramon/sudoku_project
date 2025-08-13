@@ -15,10 +15,6 @@ public class Square {
         }
     }
 
-    public Square(boolean editable) {
-        this.editable = editable;
-    }
-
     @Override
     public String toString() {
         if (number == null) return " ";
